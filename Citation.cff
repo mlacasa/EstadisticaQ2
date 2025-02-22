@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Marcos"
+  given-names: "Lacasa"
+  orcid: "https://orcid.org/0000-0002-8297-2086"
+
+title: "Herramientas para el Análisis Bioestadístico. Q2"
+version: 1.0.0
+url: "https://github.com/mlacasa/EstadisticaQ2"
