@@ -22,6 +22,25 @@ Guarda una copia en Drive y ejecuta las celdas en orden. La preparación instala
 bibliotecas necesarias en la sesión y genera los datos: no necesitas GPU, subir CSV
 ni descargar un proyecto completo. Escribe tus conclusiones en celdas de texto.
 
+## Tema 2: entender y evaluar el análisis discriminante
+
+Abre el **manual teórico del Tema 2 facilitado por el docente** y empieza por Iris.
+Cada bloque incluye una pregunta antes del cálculo y referencias a los apartados
+y páginas de la edición revisada del manual, que se distribuye por separado.
+
+| Orden | Práctica | Abrir y trabajar |
+| --- | --- | --- |
+| 1 | Iris: de ANOVA a las direcciones discriminantes, elipses, Wilks y evaluación | [ADL con Iris en Colab](https://colab.research.google.com/github/mlacasa/EstadisticaQ2/blob/main/AnalisisDiscriminanteLineal.ipynb) |
+| 2 | Cáncer de mama: etiquetas, preprocesamiento dentro de validación y métricas | [ADL con Wisconsin en Colab](https://colab.research.google.com/github/mlacasa/EstadisticaQ2/blob/main/LDABreastCancer.ipynb) |
+
+Guarda una copia en Drive y ejecuta desde la primera celda. Los datos vienen con
+scikit-learn y las funciones están incluidas; basta una sesión de Python con CPU.
+Las semillas están fijadas para contrastar tus resultados con el manual. En Iris
+distinguimos el ajuste descriptivo de la evaluación en test; en Wisconsin definimos
+malignidad como evento y comprobamos si la búsqueda mejora realmente el modelo.
+Escribe tus interpretaciones junto a las salidas: una cifra correcta también necesita
+una explicación de lo que permite concluir.
+
 ## 🧪 Contenido del repositorio
 
 Las fichas se agrupan en distintas áreas temáticas clave:
