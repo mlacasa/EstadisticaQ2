@@ -2,6 +2,26 @@
 
 Este repositorio recopila una serie de **fichas prácticas interactivas** diseñadas para la asignatura *Herramientas Avanzadas de Bioestadística*, impartida en el marco de programas de posgrado en ciencias de la salud. Cada ficha está elaborada en formato `.ipynb` y ejecutable directamente desde Google Colab, permitiendo el análisis reproducible y la exploración guiada de técnicas estadísticas avanzadas.
 
+## 📖 Tema 1: del manual al análisis
+
+Ten a mano el **manual teórico del Tema 1 facilitado por el docente** y sigue el
+itinerario de la tabla. Estos cinco cuadernos incluyen preguntas antes del cálculo,
+explicaciones para interpretar las salidas y referencias a los apartados y páginas
+del manual. El manual se distribuye por separado. Los datos son simulados y
+reproducen los ejemplos del texto.
+
+| Orden | Práctica | Abrir y trabajar |
+| --- | --- | --- |
+| 1 | Ver cómo cambia F: medias, dispersión y tamaño muestral | [AnovaPlots en Colab](https://colab.research.google.com/github/mlacasa/EstadisticaQ2/blob/main/AnovaPlots.ipynb) |
+| 2 | Calcular ANOVA y explicar el caso de colesterol | [Anova en Colab](https://colab.research.google.com/github/mlacasa/EstadisticaQ2/blob/main/Anova.ipynb) |
+| 3 | Comparar rangos con grupos independientes y medidas repetidas | [No paramétricos en Colab](https://colab.research.google.com/github/mlacasa/EstadisticaQ2/blob/main/FactorialAnalysisNonParametrical.ipynb) |
+| 4 | Preparar y defender tu propio informe | [Actividad 1 en Colab](https://colab.research.google.com/github/mlacasa/EstadisticaQ2/blob/main/Actividad1_2026.ipynb) |
+| 5 | Ampliar: ajuste basal con ANCOVA y dos respuestas con MANOVA | [ANCOVA y MANOVA en Colab](https://colab.research.google.com/github/mlacasa/EstadisticaQ2/blob/main/AncovaManova.ipynb) |
+
+Guarda una copia en Drive y ejecuta las celdas en orden. La preparación instala las
+bibliotecas necesarias en la sesión y genera los datos: no necesitas GPU, subir CSV
+ni descargar un proyecto completo. Escribe tus conclusiones en celdas de texto.
+
 ## 🧪 Contenido del repositorio
 
 Las fichas se agrupan en distintas áreas temáticas clave:
